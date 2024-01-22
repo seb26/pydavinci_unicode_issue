@@ -22,7 +22,7 @@ print('---')
 
 print('Try to create a Resolve object/contact API')
 Resolve = pydavinci.davinci.Resolve()
-print(Resolve)
+print(Resolve._obj)
 print("✅ Emoji after printing Resolve obj")
 print('---')
 
