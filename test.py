@@ -14,7 +14,9 @@ print('---')
 
 print('Try to import pydavinci')
 import pydavinci
-print('Imported pydavinci. Version:', pydavinci.__version__)
+print('Imported pydavinci.')
+if hasattr(pydavinci, '__version__'):
+	print('Pydavinci version:', pydavinci.__version__)
 print("✅ Emoji after pydavinci import")
 print('---')
 
