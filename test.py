@@ -26,7 +26,7 @@ print(Resolve._obj)
 print("✅ Emoji after printing Resolve obj")
 print('---')
 
-print("Try to load simple file as string")
+print("Try to load simple file as string again")
 stream = open('./data.txt', 'r')
 print('data.txt:', stream.read())
 print("✅ Emoji after reading back a file")
